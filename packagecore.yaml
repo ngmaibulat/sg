@@ -1,8 +1,8 @@
-name: googler
-maintainer: Arun Prakash Jana <engineerarun@gmail.com>
+name: sg
+maintainer: Aibulat Nigmatullin <ngmaibulat@gmail.com>
 license: GPLv3
-summary: Google from the command-line.
-homepage: https://github.com/jarun/googler
+summary: Google from the command-line. Fork from archived repo: https://github.com/jarun/googler
+homepage: https://github.com/ngmaibulat/sg
 commands:
   install:
     - make PREFIX="/usr" install DESTDIR="${BP_DESTDIR}"
